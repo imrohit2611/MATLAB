@@ -1,0 +1,17 @@
+clc;
+clear;
+A=input('Amplitude of the wave:');
+f0=input('Frequency of the wave:');
+n=input('Number of Harmonics:');
+T=1/f0;
+t=-2*T:T/100:2*T;
+y=A/2+zeros(1,length(t));
+for i=1:n;
+    x=A/(i*pi)*sin((i*2*pi*t)/T);
+    y=y+x;
+end;
+plot(t,y,'-k','linewidth',2);
+xlabel('Time');
+ylabel('Amplitude');
+title('Sawtooth wave');
+grid on;
