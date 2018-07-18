@@ -1,2 +1,2 @@
 # MATLAB
-Basic MATLAB programs 
+Basic MATLAB programs for introduction to MTLAB 
