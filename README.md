@@ -1,2 +1,2 @@
 # MATLAB
-Basic MATLAB programs for introduction to MTLAB 
+Basic MATLAB programs for introduction to Signal and Systems.
